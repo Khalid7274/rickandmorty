@@ -1,0 +1,24 @@
+.about-page {
+    background-color: #141414; /* Dark background for a Netflix-like feel */
+    color: white; /* White text for contrast */
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Clean, readable font */
+}
+
+.about-page h1, .about-page h2 {
+    color: #e50914; /* Netflix red for headings */
+}
+
+.about-page ul {
+    list-style: disc inside;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.about-page li {
+    margin: 10px 0;
+}
+
+.about-page p {
+    line-height: 1.6;
+}

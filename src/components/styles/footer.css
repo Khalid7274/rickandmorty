@@ -1,0 +1,39 @@
+.footer {
+    background-color: #141414; 
+    color: #ffffff; 
+    padding: 20px 0;
+    text-align: center;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links li {
+    margin: 0;
+}
+
+.footer-links li a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+    color: #e50914; /* Netflix red on hover */
+}
