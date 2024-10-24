@@ -14,7 +14,6 @@ function App() {
     const handleSearch = (e) => {
         setSearch(e.target.value);
     }
-
     return (
         <Router>
             <div className='top-header'>
