@@ -1,6 +1,6 @@
 import '../components/styles/char.css';
 
-const Character = ({ name, origin, image }) => {
+const Character = ({name, origin, image }) => {
     return (
         <div className="char-details">
             <h3>{name}</h3>
